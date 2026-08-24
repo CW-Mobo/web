@@ -90,7 +90,7 @@ Na pasta `web`, crie um arquivo `.env.local` baseado no `.env.example` disponív
 
 > Não precisa mudar nada, para o local o exemplo do .env.example já serve.
 
-### 3. Executar o Projeto
+### 3. Executar o Web
 
 ```bash
 npm run dev
