@@ -67,6 +67,8 @@ web
 └── tsconfig.json
 ```
 
+---
+
 ## 🚀 Como Rodar Localmente
 
 ### 1. Clonar o Repositório
@@ -94,9 +96,24 @@ Na pasta `web`, crie um arquivo `.env.local` baseado no `.env.example` disponív
 npm run dev
 ```
 
-> A API tem que estar rodando para tudo funcionar da maneira correta!
+> ⚠️ A API precisa estar em execução para que todas as funcionalidades do Web funcionem corretamente.
 
 Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
 > 💡 O web está configurado para consumir a API em `http://localhost:5000`. Caso altere a porta da API, ajuste também a URL da API no arquivo de conexão do web.
 
+---
+
+## 🌐 Deploy
+
+A aplicação Web está hospedada na Vercel.
+
+**Produção:** https://mobocw.vercel.app/
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+Consulte o arquivo LICENSE para mais informações.
