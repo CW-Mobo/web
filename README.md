@@ -98,6 +98,5 @@ npm run dev
 
 Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
-> 💡 O frontend web está configurado para consumir a API em `http://localhost:5000`. Caso altere a porta do backend, ajuste também a URL da API no frontend web.
+> 💡 O web está configurado para consumir a API em `http://localhost:5000`. Caso altere a porta da API, ajuste também a URL da API no arquivo de conexão do web.
 
----
