@@ -49,17 +49,19 @@ A aplicação permite visualizar informações coletadas pelo sistema, acompanha
 ## 🏗️ Arquitetura
 
 ```text
-web
-├── public
-├── src
-│   ├── app
-|   ├── components
-|   ├── hooks
-|   ├── services
-|   ├── styles
-|   └── types
+web/
+├── public/
+├── src/
+│   ├── app/
+|   ├── components/
+|   ├── hooks/
+|   ├── services/
+|   ├── styles/
+|   └── types/
 ├── .env.example
+├── .gitignore
 ├── eslint.config.mjs
+├── LICENSE
 ├── next.config.ts
 ├── package.json
 ├── package-lock.json
