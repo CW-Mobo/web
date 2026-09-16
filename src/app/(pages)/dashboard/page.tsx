@@ -19,8 +19,9 @@ const Dashboards = () => {
   useEffect(() => {
     const fetchHarvests = async () => {
       try {
-        const res = await api.get("/harvest");
-        setHarvests(res.data.harvests);
+        const res = await api.get("/harvests");
+        console.log("RESPOSTA HARVESTS:", res.data);
+        setHarvests(res.data.harvests ?? []);
       } catch (error) {
         console.error("Erro ao buscar harvests:", error);
       } finally {

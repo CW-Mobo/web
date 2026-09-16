@@ -39,7 +39,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await api.get("/user/me");
+        const res = await api.get("/users/me");
         setUser(res.data.user);
       } catch (error) {
         router.replace("/auth/login");
@@ -56,7 +56,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchImage = async () => {
       try {
-        const res = await api.get("/profile");
+        const res = await api.get("/harvest-images");
         setImages(res.data.images || []);
       } catch (error) {
         console.error("Erro ao buscar imagens:", error);

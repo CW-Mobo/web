@@ -21,7 +21,7 @@ export default function PagesLayout({
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await api.get("/user/me");
+        const res = await api.get("/users/me");
         setUser(res.data.user);
       } catch (error) {
         router.replace("/auth/login");

@@ -33,7 +33,7 @@ const Reports = () => {
     if (!confirm("Deseja realmente excluir os registros selecionados?")) return;
 
     try {
-      await api.delete("/harvest", {
+      await api.delete("/harvests", {
         data: { ids: selectedIds },
       });
 

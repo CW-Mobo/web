@@ -21,7 +21,7 @@ const Sensors = () => {
   useEffect(() => {
     const fetchHarvests = async () => {
       try {
-        const res = await api.get("/sensordata");
+        const res = await api.get("/sensor-data");
         setSensor(res.data.sensorDatas);
       } catch (error) {
         console.error("Erro ao buscar sensores:", error);

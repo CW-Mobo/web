@@ -16,7 +16,7 @@ const SplashScreen = () => {
 
     const checkAuth = async () => {
       try {
-        const res = await api.get("/user/me");
+        const res = await api.get("/users/me");
         if (res.data.user) {
           router.replace("/home"); // usuário logado
         } else {

@@ -30,7 +30,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await api.get("/user/me");
+        const res = await api.get("/users/me");
         setUser(res.data.user);
       } catch {
         router.replace("/auth/login");
