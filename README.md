@@ -90,7 +90,7 @@ cd web
 npm install
 ```
 
-#### 4. Configurar variáveis de ambiente
+### 4. Configurar variáveis de ambiente
 
 Na pasta `web`, crie um arquivo `.env.local` baseado no `.env.example` disponível no repositório.
 
