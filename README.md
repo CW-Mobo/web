@@ -73,28 +73,30 @@ web/
 
 ## 🚀 Como Rodar Localmente
 
-Primeiro rode o conteúdo no repositório [API](https://github.com/CW-Mobo/api)
+### 1. Rode a API
 
-### 1. Clonar o Repositório
+O Web não funciona sem a API, portanto rode o conteúdo do repositório [api](https://github.com/CW-Mobo/api) antes.
+
+### 2. Clonar o Repositório
 
 ```bash
 git clone https://github.com/CW-Mobo/web.git
 cd web
 ```
 
-### 2. Instalar Dependências
+### 3. Instalar Dependências
 
 ```bash
 npm install
 ```
 
-#### Configurar variáveis de ambiente
+#### 4. Configurar variáveis de ambiente
 
 Na pasta `web`, crie um arquivo `.env.local` baseado no `.env.example` disponível no repositório.
 
 > Não precisa mudar nada, para o local o exemplo do .env.example já serve.
 
-### 3. Executar o Web
+### 5. Executar o Web
 
 ```bash
 npm run dev
