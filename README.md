@@ -73,6 +73,8 @@ web/
 
 ## 🚀 Como Rodar Localmente
 
+Primeiro rode o conteúdo no repositório [API](https://github.com/CW-Mobo/api)
+
 ### 1. Clonar o Repositório
 
 ```bash
