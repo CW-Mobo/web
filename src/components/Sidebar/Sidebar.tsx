@@ -27,9 +27,6 @@ const Sidebar = () => {
         <Link href="/report">
           <span>Relatórios</span>
         </Link>
-        <Link href="/alert">
-          <span>Alertas</span>
-        </Link>
         <Link href="/forecast">
           <span>Previsão Colheita</span>
         </Link>
