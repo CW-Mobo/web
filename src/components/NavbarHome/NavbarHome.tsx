@@ -8,7 +8,7 @@ import styles from "./NavbarHome.module.css";
 
 const NAV_LINKS = [
   { label: "Home", href: "/home" },
-  { label: "Braço Mecânico", href: "/harvester" },
+  { label: "Previsão Colheita", href: "/forecast" },
   { label: "Relatórios", href: "/report" },
   { label: "Dashboard", href: "/dashboard" },
 ];
